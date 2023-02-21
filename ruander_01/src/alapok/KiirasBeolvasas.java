@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class KiirasBeolvasas {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws Throwable, IOException {
 
 		/********* adatbe *************/
 
@@ -54,7 +54,7 @@ public class KiirasBeolvasas {
 		/********************
 		 * Mi a különbség a scanner és buffreader közt?
 		 *************/
-		// Scanner lassabb és régebbi szintakszisa viszon egyszerűbb, nem szálbiztos
+		// Scanner lassabb és régebbi szintaxisa viszon egyszerűbb, nem szálbiztos
 
 		// Buffreader újabb, gyorsabb, kötelez a kivételkezelésre
 		// szinkronizált többszálú, szálbiztos.
