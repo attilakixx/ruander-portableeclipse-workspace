@@ -20,6 +20,8 @@ public class F07EuroFt {
 
 		System.out.printf(valtandoForint + "Ft = %.2f€", forintInEur);
 
+		scanner.close();
+
 	}
 
 }
