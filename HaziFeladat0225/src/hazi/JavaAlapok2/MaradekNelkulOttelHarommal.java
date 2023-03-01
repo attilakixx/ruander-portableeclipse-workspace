@@ -1,4 +1,4 @@
-package hayi.JavaAlapok2;
+package hazi.JavaAlapok2;
 
 import java.util.Scanner;
 
