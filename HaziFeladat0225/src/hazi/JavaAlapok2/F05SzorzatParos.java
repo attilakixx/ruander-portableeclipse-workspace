@@ -17,16 +17,27 @@ public class F05SzorzatParos {
 		int szorzat = szam1 * szam2;
 
 		if (szorzat == 0) {
-			System.out.println("A számok szorzata 0 - se nem páros, se nem páratlan.");
+			System.out.println(
+					"A számok szorzata 0 - se nem páros, se nem páratlan.");
 		} else if (szorzat % 2 == 0) {
-			System.out.println("A megadott számok szorzata (" + szorzat + ") páros.");
+			System.out.println(
+					"A megadott számok szorzata (" + szorzat + ") páros.");
 
 		} else {
-			System.out.println("A megadott számok szorzata (" + szorzat + ") páratlan.");
+			System.out.println(
+					"A megadott számok szorzata (" + szorzat + ") páratlan.");
 		}
 
 		scanner.close();
 
+	}
+
+	public static boolean isEven(int number) {
+		if (number == 0) {
+			return false;
+		}
+
+		return (number % 2 == 0);
 	}
 
 }
