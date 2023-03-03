@@ -20,6 +20,6 @@ public class F06ParosHat {
 
 			System.out.println("A megadott szám: " + szam + message);
 		}
-
+		scanner.close();
 	}
 }
