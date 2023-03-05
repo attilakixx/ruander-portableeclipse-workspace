@@ -29,7 +29,7 @@ public class VeletlenSzamok {
 
 		// általános képlet mi és max - iclusive (mindkét érték benne van a generált
 		// számok között):
-		// r.nextInt((max-min)+1)+min
+		// random.nextInt((max-min)+1)+min
 
 	}
 
