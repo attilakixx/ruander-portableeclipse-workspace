@@ -101,7 +101,7 @@ public class CiklosFor {
 			else {
 				System.out.println(i);
 			}
-
+		scanner.close();
 	}
 }
 
