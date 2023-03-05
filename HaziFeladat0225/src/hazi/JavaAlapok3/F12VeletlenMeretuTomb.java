@@ -20,6 +20,8 @@ public class F12VeletlenMeretuTomb {
 			gyumolcsok[i] = getRandomStringFromAnArray(lehetsegesGyumolcsnevek);
 
 		}
+
+
 // ellenörző:
 //		for (int i = 0; i < gyumolcsok.length; i++) {
 //			System.out.println(gyumolcsok[i] + " ");
