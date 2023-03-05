@@ -2,7 +2,7 @@ package hazi.JavaAlapok3;
 
 import java.util.Random;
 
-public class F10Ermefel {
+public class F11Ermefel {
 
 	public static void main(String[] args) {
 //		11. Hozzunk létre 10 érmefeldobást szimuláló alkalmazást! Melyik érmefeldobások alkalmával volt fej 
