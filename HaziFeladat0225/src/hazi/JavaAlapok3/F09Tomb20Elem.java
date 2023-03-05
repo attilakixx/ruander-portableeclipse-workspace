@@ -1,3 +1,4 @@
+package hazi.JavaAlapok3;
 
 public class F09Tomb20Elem {
 //Töltsünk fel egy 20 elemű tömböt véletlen számokkal [-60;+60] intervallumból, majd írjuk ki az 
