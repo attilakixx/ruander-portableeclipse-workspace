@@ -2,7 +2,7 @@ package hazi.JavaAlapok2;
 
 import java.util.Scanner;
 
-public class F13SwitchHatvany {
+public class F14SwitchHatvany {
 //	14. Switch-case szerkezettel készítsünk hatványozó alkalmazást! Kérjünk be 2 pozitív egész számot: 
 //		az első szám, amit hatványozni szeretnénk, a második megadott szám pedig a menüpont, amit 
 //		leütve írja ki a 2. 3. vagy a 4. hatványát az első számnak! Ha más értéket adok meg, írja ki, hogy 

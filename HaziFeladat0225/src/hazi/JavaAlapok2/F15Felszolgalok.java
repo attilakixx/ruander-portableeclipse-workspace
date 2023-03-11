@@ -2,7 +2,7 @@ package hazi.JavaAlapok2;
 
 import java.util.Scanner;
 
-public class F14Felszolgalok {
+public class F15Felszolgalok {
 //	15. A gyorsétterem felszolgálói hetente kapnak fizetést. Mindenki az alapján hány napot dolgozott a 
 //	héten. Bérük 8.000 Ft / nap. Kérjük be a felszolgáló nevét és hány napon dolgozott a héten, majd 
 //	írjuk ki a heti fizetését. (felszolgalok)
