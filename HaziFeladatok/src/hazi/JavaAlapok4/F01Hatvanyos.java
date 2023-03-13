@@ -9,27 +9,36 @@ import java.util.Scanner;
 public class F01Hatvanyos {
 
 	public static void main(String[] args) {
-		int[] myArray = { 1, 2, 3, 4, 5, 6, 7 };
+		int[] tesztArray = arraytBeker();
+
+		System.out.println("\nHatványozásteszt: \n\n");
+		tombElemHatvanyKiir(tesztArray, 2);
 
 
-
-		Scanner scanner = new Scanner(System.in);
-		int[] felhasznaloTombje = new int[7];
-
-		for (int i = 0; i < felhasznaloTombje.length; i++) {
-			System.out.println("Adjon meg egy egész számot " + (i + 1) + "/"
-					+ felhasznaloTombje.length);
-			felhasznaloTombje[i] = Integer.parseInt(scanner.nextLine());
-		}
-
-		System.out.println("A tömb elemei: ");
-		for (int i : felhasznaloTombje) {
-			System.out.print(i + " ");
-
-		}
-		tombElemHatvanyKiir(myArray, 5);
 
 	}
+
+	public static int[] arraytBeker() {
+		Scanner scanner = new Scanner(System.in);
+
+
+		System.out.print("Adja meg, hány elemű tömböt szeretne létrehozni: ");
+		int tombHossza = Integer.parseInt(scanner.nextLine());
+
+		int[] array = new int[tombHossza];
+
+		for (int i = 0; i < array.length; i++) {
+			System.out.print("Adja meg a tömb " + (i + 1) + "/" + array.length + " elemét: ");
+			array[i] = Integer.parseInt(scanner.nextLine());
+
+		}
+
+
+		scanner.close();
+		return array;
+	}
+
+
 
 	public static void tombElemHatvanyKiir(int[] tomb, int hatvanykitevo) {
 		for (int i : tomb) {
